@@ -1,0 +1,25 @@
+---
+  extends: standard
+  env:
+    node: true,
+    es6: true,
+    jest: true
+  parserOptions:
+    ecmaVersion: 6
+    sourceType: module
+  rules:
+    # To prevent frequent errors
+    no-extra-parens: 1
+    no-process-env: 1
+    no-useless-escape: 1
+    no-var: 1
+    prefer-const: 1
+    sort-imports:
+      - 1
+      - ignoreCase: true
+        ignoreMemberSort: false
+        memberSyntaxSortOrder:
+          - none
+          - all
+          - multiple
+          - single
