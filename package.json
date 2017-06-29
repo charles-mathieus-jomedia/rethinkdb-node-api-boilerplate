@@ -22,5 +22,34 @@
     "morgan": "^1.8.2",
     "thinky": "^2.3.8",
     "winston": "^2.3.1"
+  },
+  "devDependencies": {
+    "jest": "^20.0.4",
+    "eslint": "3.18.0",
+    "eslint-config-standard": "7.1.0",
+    "eslint-plugin-import": "2.2.0",
+    "eslint-plugin-jest": "19.0.1",
+    "eslint-plugin-node": "4.2.2",
+    "eslint-plugin-promise": "3.5.0",
+    "eslint-plugin-standard": "2.1.1"
+  },
+  "jest": {
+    "collectCoverageFrom": [
+      "**/*.{js,jsx}",
+      "!**/dist/**",
+      "!**/coverage/**",
+      "!**/node_modules/**",
+      "!**/test/**"
+    ],
+    "coverageDirectory": "coverage",
+    "moduleFileExtensions": [
+      "ts",
+      "tsx",
+      "js"
+    ],
+    "testMatch": [
+      "**/test/**/*.js?(x)",
+      "**/?(*.)(spec|test).js?(x)"
+    ]
   }
 }
