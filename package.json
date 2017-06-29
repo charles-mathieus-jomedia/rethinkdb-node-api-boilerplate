@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node index",
+    "database-dev": "sh ./scripts/database-dev.sh",
+    "start": "node src/index",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
