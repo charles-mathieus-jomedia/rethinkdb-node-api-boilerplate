@@ -1,1 +1,7 @@
+# NPM
 node_modules/
+
+# rethinkdb
+rethinkdata/
+
+.env
