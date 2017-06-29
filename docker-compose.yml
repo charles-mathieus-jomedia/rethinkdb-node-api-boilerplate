@@ -1,9 +1,7 @@
 version: '3'
 services:
   db:
-    build:
-      context: .
-      dockerfile: Dockerfile.db
+    image: rethinkdb:latest
     ports:  
       - "38080:8080"
       - "38015:28015"
